@@ -18,6 +18,7 @@ public class Test {
             System.out.println("==电影信息系统==");
             System.out.println("1.查询全部电影信息");
             System.out.println("2.根据id查询某个电影的详细信息");
+            System.out.println("3.退出");
             System.out.println("请输入您的操作命令: ");
             int command = sc.nextInt();
             switch (command) {
@@ -30,6 +31,11 @@ public class Test {
                     int id = sc.nextInt();
                     mo.searchMovieById(id);
                     break;
+                case 3:
+                    System.out.println("感谢您的使用~~下次再来~~");
+                    return;
+                   /* System.exit(0);
+                    break;*/
                 default:
                     System.out.println("您输入的命令有问题~~");
             }

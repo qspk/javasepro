@@ -33,7 +33,7 @@ public class Movie {
 
     /**
      * 设置
-     * @param id
+     * @param id 电影编号
      */
     public void setId(int id) {
         this.id = id;
