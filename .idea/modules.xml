@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/javasepro.iml" filepath="$PROJECT_DIR$/javasepro.iml" />
       <module fileurl="file://$PROJECT_DIR$/method/method.iml" filepath="$PROJECT_DIR$/method/method.iml" />
       <module fileurl="file://$PROJECT_DIR$/myobject/myobject.iml" filepath="$PROJECT_DIR$/myobject/myobject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mystring/mystring.iml" filepath="$PROJECT_DIR$/mystring/mystring.iml" />
       <module fileurl="file://$PROJECT_DIR$/mytest/mytest.iml" filepath="$PROJECT_DIR$/mytest/mytest.iml" />
       <module fileurl="file://$PROJECT_DIR$/opp-app/opp-app.iml" filepath="$PROJECT_DIR$/opp-app/opp-app.iml" />
     </modules>
