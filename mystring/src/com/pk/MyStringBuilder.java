@@ -16,5 +16,12 @@ public class MyStringBuilder {
 
         String s = sb.toString();
         System.out.println(s);
+        int[] arr = {1, 2, 3};
+        StringBuilder sb3 = new StringBuilder();
+        sb3.append("{");
+        for (int i = 0; i < arr.length; i++) {
+            sb3 = i == arr.length - 1 ? sb3.append(arr[i]).append("}") : sb3.append(arr[i]).append(",");
+        }
+        System.out.println(sb3);
     }
 }

@@ -20,6 +20,10 @@ public class Account {
         this.limit = limit;
     }
 
+    public String getUsername() {
+        return name + (sex == '男' ? "先生" : "女士");
+    }
+
     public String getCardId() {
         return cardId;
     }
